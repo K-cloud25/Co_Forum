@@ -43,4 +43,14 @@
         android:layout_gravity="center"
         android:text="Log IN"
         />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign UP"
+        />
+
+
 </LinearLayout>
