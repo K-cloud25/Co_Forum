@@ -13,6 +13,7 @@
         android:textSize="40sp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
+        android:textColor="@color/cyan"
         />
 
     <EditText
@@ -23,7 +24,9 @@
         android:layout_marginLeft="40sp"
         android:layout_marginRight="40sp"
         android:paddingLeft="14sp"
+        android:paddingRight="14sp"
         android:hint="Email"
+        android:autofillHints="emailAddress"
         />
     <EditText
         android:id="@+id/passwordInput"
@@ -33,6 +36,8 @@
         android:layout_marginLeft="40sp"
         android:layout_marginRight="40sp"
         android:paddingLeft="14sp"
+        android:paddingRight="14sp"
+        android:autofillHints="Password"
         android:hint="Password"
         />
 

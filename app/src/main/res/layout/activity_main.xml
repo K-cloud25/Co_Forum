@@ -14,7 +14,7 @@
         android:text="Co_Forum"
         android:textAlignment="center"
         android:textSize="48sp"
-        android:textColor="#2AC3A4"
+        android:textColor="@color/cyan"
 
       />
 
