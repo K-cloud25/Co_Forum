@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CoForum</string>
+    <string-array name="Year">
+        <item>FirstYear</item>
+        <item>SecondYear</item>
+        <item>ThirdYear</item>
+        <item>FourthYear</item>
+
+    </string-array>
 </resources>
