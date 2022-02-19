@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474969142427",
+    "project_id": "coforum-d5044",
+    "storage_bucket": "coforum-d5044.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474969142427:android:090592d37a638fbfd1423e",
+        "android_client_info": {
+          "package_name": "org.co1711rem1803.coforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474969142427-hhi66l9ttlogb0t9l9212c911stb96u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXh0-v7xFMJYpg-BH6LM3yo-dNJO3mgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474969142427-hhi66l9ttlogb0t9l9212c911stb96u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/Main_Background"
     tools:context=".LogIn">
 
     <TextView
@@ -34,6 +35,7 @@
         android:layout_marginLeft="40sp"
         android:layout_marginRight="40sp"
         android:paddingLeft="14sp"
+        android:inputType="textPassword"
         android:hint="Password"
         />
 
