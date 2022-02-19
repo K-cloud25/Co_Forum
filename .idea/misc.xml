@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CoForum/app/src/main/res/layout/activity_log_in.xml" value="0.2006340579710145" />
         <entry key="..\:/CoForum/app/src/main/res/layout/activity_main.xml" value="0.13179347826086957" />
-        <entry key="..\:/Users/Prajwal/AndroidStudioProjects/Co_Forum/app/src/main/res/layout/activity_log_in.xml" value="0.1796875" />
+        <entry key="..\:/CoForum/app/src/main/res/layout/activity_signup_page.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Prajwal/AndroidStudioProjects/Co_Forum/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/Prajwal/AndroidStudioProjects/Co_Forum/app/src/main/res/layout/activity_signup_page.xml" value="0.1640625" />
       </map>
     </option>
   </component>
