@@ -3,7 +3,6 @@ package org.co1711rem1803.coforum
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.*
 import com.google.firebase.auth.FirebaseAuth
 
@@ -14,7 +13,6 @@ class Signup_page : AppCompatActivity() {
     private lateinit var emailBox : EditText
     private lateinit var passwordBox : EditText
     private lateinit var fullName : EditText
-    private lateinit var userName : EditText
 
     private lateinit var mAuth : FirebaseAuth
 
@@ -31,7 +29,6 @@ class Signup_page : AppCompatActivity() {
         passwordBox = findViewById(R.id.passwordEmail)
         signUPbtn = findViewById(R.id.signUpBtn)
         fullName = findViewById(R.id.FullNameInput)
-        userName = findViewById(R.id.UsernameInput)
         mAuth = FirebaseAuth.getInstance()
 
         // Create an ArrayAdapter using the string array and a default spinner layout
@@ -75,7 +72,7 @@ class Signup_page : AppCompatActivity() {
                 if (task.isSuccessful){
                     //Jump to User InterAction Page
 
-                    val intent = Intent(this@Signup_page , LogIn::class.java)
+                    val intent = Intent(this@Signup_page , UserInfo::class.java)
                     startActivity(intent)
 
                 } else {

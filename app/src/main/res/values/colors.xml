@@ -12,4 +12,8 @@
     <color name="lightbrown">#BD7050</color>
     <color name="lightbrown2">#F8CAA0</color>
     <color name="lightbrown3">#E6E3E2</color>
+    <color name="ButtonColor1">#ffcb9e</color>
+    <color name="ButtonText1">#c76024</color>
+    <color name="EditTextBg">#ffedcf</color>
+    <color name="EditTextcolor">#ffd896</color>
 </resources>

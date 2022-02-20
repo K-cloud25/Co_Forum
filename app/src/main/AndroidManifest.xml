@@ -10,24 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoForum">
         <activity
+            android:name=".UserInfo"
+            android:exported="false"
+            android:label="@string/title_activity_user_info"
+            android:theme="@style/Theme.CoForum.NoActionBar" />
+        <activity
             android:name=".Signup_page"
             android:exported="true" />
         <activity
             android:name=".LogIn"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

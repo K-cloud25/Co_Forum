@@ -29,6 +29,8 @@
         android:hint="Email"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
     <EditText
@@ -42,6 +44,8 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
     <Button
@@ -51,7 +55,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_button"
-
+        android:textColor="@color/ButtonText1"
         android:text="Log IN" />
 
     <Button
@@ -61,6 +65,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_button"
+        android:textColor="@color/ButtonText1"
         android:text="SIGN UP" />
 
 

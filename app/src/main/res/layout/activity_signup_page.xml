@@ -28,18 +28,8 @@
         android:hint="FullName"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:background="@drawable/textrounded"/>
-
-    <EditText
-        android:id="@+id/UsernameInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="70sp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="70sp"
-        android:hint="Username"
-        android:minHeight="48dp"
-        android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
     <Spinner
@@ -52,6 +42,8 @@
         android:hint="Year"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
     <EditText
@@ -64,6 +56,8 @@
         android:hint="Email"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
 
@@ -77,6 +71,8 @@
         android:hint="Password"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
+        android:backgroundTint="@color/EditTextBg"
+        android:textColorHint="@color/EditTextcolor"
         android:background="@drawable/textrounded"/>
 
     <Button
@@ -86,8 +82,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Sign UP"
+        android:textColor="@color/ButtonText1"
         android:background="@drawable/rounded_button"
         />
-
 
 </LinearLayout>
