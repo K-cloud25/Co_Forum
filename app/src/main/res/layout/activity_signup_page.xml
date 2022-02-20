@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".LogIn"
-    android:background="@color/Main_Background">
+    android:background="@color/Main_Background"
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,67 +15,72 @@
         android:textColor="@color/lightbrown"
         android:textSize="40sp"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="150dp"
         />
 
     <EditText
         android:id="@+id/FullNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="300dp"
-        android:layout_marginRight="40sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70sp"
         android:hint="FullName"
         android:minHeight="48dp"
-        android:paddingLeft="14sp" />
+        android:paddingLeft="14sp"
+        android:background="@drawable/textrounded"/>
 
     <EditText
         android:id="@+id/UsernameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="40sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="70sp"
         android:hint="Username"
         android:minHeight="48dp"
-        android:paddingLeft="14sp" />
+        android:paddingLeft="14sp"
+        android:background="@drawable/textrounded"/>
 
     <Spinner
         android:id="@+id/Year_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="40sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="70sp"
         android:hint="Year"
         android:minHeight="48dp"
-        android:paddingLeft="14sp" />
+        android:paddingLeft="14sp"
+        android:background="@drawable/textrounded"/>
 
     <EditText
         android:id="@+id/emailID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="40sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="70sp"
         android:hint="Email"
         android:minHeight="48dp"
-        android:paddingLeft="14sp" />
+        android:paddingLeft="14sp"
+        android:background="@drawable/textrounded"/>
 
 
     <EditText
         android:id="@+id/passwordEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="40sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="70sp"
         android:hint="Password"
         android:minHeight="48dp"
-        android:paddingLeft="14sp" />
+        android:paddingLeft="14sp"
+        android:background="@drawable/textrounded"/>
 
     <Button
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/signUpBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
