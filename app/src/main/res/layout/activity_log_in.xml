@@ -3,59 +3,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/Main_Background"
+    android:orientation="vertical"
+    android:visibility="visible"
     tools:context=".LogIn">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Co-Forum"
-        android:textColor="@color/cyan"
-        android:textSize="40sp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
-        />
+        android:text="Co-Forum"
+        android:textColor="@color/lightbrown"
+        android:textSize="40sp" />
 
     <EditText
         android:id="@+id/emailInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
         android:layout_marginLeft="40sp"
+        android:layout_marginTop="350dp"
         android:layout_marginRight="40sp"
-        android:paddingLeft="14sp"
         android:hint="Email"
-        />
+        android:minHeight="48dp"
+        android:paddingLeft="14sp" />
+
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="40sp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="40sp"
-        android:paddingLeft="14sp"
-        android:inputType="textPassword"
         android:hint="Password"
-        />
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="14sp" />
 
     <Button
-        android:layout_marginTop="10dp"
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Log IN"
-        />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+
+        android:text="Log IN" />
 
     <Button
-        android:layout_marginTop="10dp"
         android:id="@+id/signUpBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sign UP"
-        />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="SIGN UP" />
 
 
 </LinearLayout>

@@ -8,5 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cyan">#2AC3A4</color>
-    <color name="Main_Background">#f2e6ff</color>
+    <color name="Main_Background">#F4ECE9</color>
+    <color name="lightbrown">#BD7050</color>
+    <color name="lightbrown2">#F8CAA0</color>
 </resources>

@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LogIn">
+    tools:context=".LogIn"
+    android:background="@color/Main_Background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Co-Forum"
-        android:textColor="@color/cyan"
+        android:textColor="@color/lightbrown"
         android:textSize="40sp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
@@ -79,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Sign UP"
+        android:background="@drawable/rounded_button"
         />
 
 
