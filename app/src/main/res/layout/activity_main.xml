@@ -11,13 +11,11 @@
         android:layout_height="56dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
-        android:text="Co_Forum"
+        android:text="User Page"
         android:textAlignment="center"
         android:textSize="48sp"
         android:textColor="@color/cyan"
 
       />
-
-
 
 </LinearLayout>

@@ -50,7 +50,7 @@
         android:paddingLeft="14sp" />
 
     <EditText
-        android:id="@+id/emailInput"
+        android:id="@+id/emailID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40sp"
@@ -62,7 +62,7 @@
 
 
     <EditText
-        android:id="@+id/passwordInput"
+        android:id="@+id/passwordEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40sp"
