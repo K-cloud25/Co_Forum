@@ -26,12 +26,12 @@
         android:layout_marginLeft="70sp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="70sp"
+        android:background="@drawable/textrounded"
+        android:backgroundTint="@color/EditTextBg"
         android:hint="Email"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:backgroundTint="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:background="@drawable/textrounded"/>
+        android:textColorHint="@color/material_dynamic_neutral70" />
 
     <EditText
         android:id="@+id/passwordInput"
@@ -40,13 +40,13 @@
         android:layout_marginLeft="70sp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="70sp"
+        android:background="@drawable/textrounded"
+        android:backgroundTint="@color/EditTextBg"
         android:hint="Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:backgroundTint="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:background="@drawable/textrounded"/>
+        android:textColorHint="@color/material_dynamic_neutral70" />
 
     <Button
         android:id="@+id/loginBtn"
