@@ -36,17 +36,6 @@
         android:textColorHint="@color/EditTextcolor"
         android:minHeight="48dp" />
 
-    <EditText
-        android:id="@+id/Branch"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20sp"
-        android:layout_marginTop="50dp"
-        android:hint="Branch"
-        android:background="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:minHeight="48dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Date of birth"
-            android:layout_marginRight="5px"
+            android:layout_marginRight="15px"
             android:background="@drawable/rounded_button"
             android:textColor="@color/ButtonText1"
             />
@@ -72,13 +61,26 @@
             android:layout_weight="0.5"
             android:layout_marginTop="3sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5px"
+            android:layout_marginLeft="15px"
             android:background="@drawable/textrounded"
             android:backgroundTint="@color/EditTextBg"
             android:text="00/00/0000"
+            android:autoSizeTextType="uniform"
             android:textColor="@color/ButtonColor1"
             android:paddingHorizontal="20sp"
             android:textSize="25sp" />
     </LinearLayout>
+
+
+    //Must Be at bottom This is temp position
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:text="Save"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/ButtonText1"/>
 
 </LinearLayout>
