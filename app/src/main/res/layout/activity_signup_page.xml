@@ -27,7 +27,7 @@
         android:layout_marginRight="70sp"
         android:background="@drawable/textrounded"
         android:backgroundTint="@color/EditTextBg"
-        android:hint="Full Name"
+        android:hint="FullName"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
         android:textColorHint="@color/material_dynamic_neutral70" />
