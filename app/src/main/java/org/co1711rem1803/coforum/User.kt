@@ -7,7 +7,8 @@ class User {
     var userName : String? = null
     var dateOfBirth : String? = null
     var uid : String? = null
-
+    var panel : String? = null
+    var year : Int? = null
 
     constructor(){}
 

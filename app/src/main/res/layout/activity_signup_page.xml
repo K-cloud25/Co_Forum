@@ -25,12 +25,12 @@
         android:layout_marginLeft="70sp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="70sp"
+        android:background="@drawable/textrounded"
+        android:backgroundTint="@color/EditTextBg"
         android:hint="FullName"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:backgroundTint="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:background="@drawable/textrounded"/>
+        android:textColorHint="@color/material_dynamic_neutral70" />
 
     <Spinner
         android:id="@+id/Year_spinner"
@@ -53,12 +53,12 @@
         android:layout_marginLeft="70sp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="70sp"
+        android:background="@drawable/textrounded"
+        android:backgroundTint="@color/EditTextBg"
         android:hint="Email"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:backgroundTint="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:background="@drawable/textrounded"/>
+        android:textColorHint="@color/material_dynamic_neutral70" />
 
 
     <EditText
@@ -68,12 +68,12 @@
         android:layout_marginLeft="70sp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="70sp"
+        android:background="@drawable/textrounded"
+        android:backgroundTint="@color/EditTextBg"
         android:hint="Password"
         android:minHeight="48dp"
         android:paddingLeft="14sp"
-        android:backgroundTint="@color/EditTextBg"
-        android:textColorHint="@color/EditTextcolor"
-        android:background="@drawable/textrounded"/>
+        android:textColorHint="@color/material_dynamic_neutral70" />
 
     <Button
         android:layout_marginTop="15dp"
